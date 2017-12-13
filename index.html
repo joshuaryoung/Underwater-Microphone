@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/2.22.0/mediaelementplayer.min.css">
+	
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/2.22.0/jquery.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/2.22.0/mediaelement-and-player.min.js"></script>
+	<script type="text/javascript">
+		$('audio').mediaelementplayer({
+			features: ['playpause','progress','current','tracks','fullscreen']
+		});
+	</script>
+</head>
+
+<body>
+	<div class="body-container">
+		<div class="um1-img-container">
+			<img src="./images/um1.jpg" alt="UNDERWATER MICROPHONE" class="um1-img"></img>
+		</div>
+		<div class="img-container">
+			<img src="http://via.placeholder.com/700x250/f5d247" alt="placeholder" class="body-img"></img>
+		</div>
+		<div class="audio-player-container">
+			<audio controls="controls" class="audio">
+			</audio>
+		</div>
+		<div class="spiral-img-container">
+			<img src="images/spiral.svg" class="spiral-img">
+			</img>
+		</div>
+	</div>
+</body>
+
+</html>
