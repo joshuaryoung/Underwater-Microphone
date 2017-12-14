@@ -10,6 +10,11 @@ html, body
 	src: url(../Fonts/mecha.ttf);
 }
 
+@media only screen and (max-width 980)
+{
+	
+}
+
 .body-container
 {
 	height: 100%;
@@ -23,30 +28,45 @@ html, body
 	justify-content: center;
 	text-align: center;
 	background-color: inherit;
-	height: 48%;
+	max-height: fit-content;
 	align-items: center;
-	padding-bottom: 4%;
+	margin: 3% 0% 6% 0%;
 }
 
 .um1-img
 {
-	height: 90%;
+	max-height: 12%;
+	max-width: 59%;
 }
 
 .img-container
 {
-	height: 50%;
+	/* object-fit: contain; */
+	/* min-height: min-content; */
+	max-width: 68%;
+	height: fit-content;
+	width: fit-content;
 	text-align: center;
+	align-self: center;
 	display: flex;
+	flex-direction: row;
 	justify-content: center;
-	align-items: center;
 	background-color: red;
 	border-radius: 14px;
+	margin: auto;
+	/* padding: 3% 0% 3% 0%; */
+	vertical-align: middle;
 }
 
 .body-img
 {
 	border-radius: 12px;
+	max-width: 100%;
+	max-height: 100%;
+	height: auto;
+	width: auto;
+	/* object-fit: contain; */
+	align-self: inherit;
 }
 
 .audio-player-container
