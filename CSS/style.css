@@ -22,6 +22,38 @@ html, body
 	width: 100%;
 }
 
+.player-bar
+{
+	position: sticky;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	top: 0%;
+	height: 3%;
+	transition: height .25s ease-out;
+	background-color: red;
+	z-index: 10;
+	border-radius: 5px;
+}
+
+.player-bar:hover
+{
+	height: 10%;
+}
+
+.audio
+{
+	/* display: inline-block; */
+	filter: opacity(0%);
+	transition: filter .25s ease-out;
+}
+
+.player-bar:hover .audio
+{
+	filter: opacity(100%);
+}
+
 .um1-img-container
 {
 	display: flex;
