@@ -46,12 +46,16 @@ html, body
 {
 	/* display: inline-block; */
 	filter: opacity(0%);
-	transition: filter .25s ease-out;
+	transition: all .25s ease-out;
+	height: 0%;
+	transition-property: filter, height;
+	background-color: red;
 }
 
 .player-bar:hover .audio
 {
 	filter: opacity(100%);
+	height: 40%;
 }
 
 .um1-img-container
