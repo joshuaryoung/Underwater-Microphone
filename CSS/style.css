@@ -1,4 +1,4 @@
-html, body 
+html, body
 {
 	height: 98.998%;
 	background-color: #d9eada;
@@ -13,7 +13,7 @@ html, body
 
 @media only screen and (max-width 980)
 {
-	
+
 }
 
 .body-container
@@ -30,7 +30,8 @@ html, body
 	justify-content: center;
 	align-items: center;
 	top: 0%;
-	height: 3%;
+	margin-top: -9px;
+	height: 5%;
 	transition: height .25s ease-out;
 	background-color: red;
 	z-index: 10;
